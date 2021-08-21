@@ -36460,7 +36460,7 @@ I:function(a,b){var s=null,r=t.e
 return M.wt(s,M.S(s,T.fJ(H.b([T.aD(M.S(s,new T.d6(C.yx,K.ah4(new D.mw(u.G),90),s),C.h,s,s,s,s,s,s,s,s,s,s),30),T.aD(M.S(s,T.fJ(H.b([T.aD(M.S(s,L.aG("Hello.",s,s,s,A.ia(s,s,s,s,s,s,s,s,s,s,s,30,s,C.d4,s,s,!0,s,s,s,s,s,s),s,s),C.h,s,s,s,s,s,s,new V.K(0,0,255,0),s,s,s),50),T.aD(M.S(s,L.aG("Welcome Back.",s,s,s,A.ia(s,s,s,s,s,s,s,s,s,s,s,30,s,C.d4,s,s,!0,s,s,s,s,s,s),s,s),C.h,s,s,s,s,s,s,new V.K(0,0,128,0),s,s,s),50)],r),C.R,C.a0,C.Y),C.h,s,s,s,s,s,s,s,s,s,s),15),T.aD(M.S(s,T.fJ(H.b([T.aD(Z.bq(this.d,L.bg(s,new F.aT(4,C.t,C.v),s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,!1,s,s,"Email",s,s,s,s,s,s,s,s,s,s,s),!1),50),T.aD(Z.bq(this.e,L.bg(s,new F.aT(4,C.t,C.v),s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,!1,s,s,"Password",s,s,s,s,s,s,s,s,s,s,s),!0),50)],r),C.R,C.a0,C.Y),C.h,s,s,s,s,s,s,new V.K(50,50,50,50),s,s,s),45),T.aD(M.S(s,T.e5(D.jk(L.aG("Confirm",s,s,s,s,s,s),new B.a9U(this,b)),200,250),C.h,s,s,s,s,s,s,new V.K(30,30,30,30),s,s,s),15)],r),C.R,C.a0,C.Y),C.h,s,s,s,s,s,s,s,s,s,s),s)}}
 B.a9U.prototype={
 $0:function(){var s=this.a
-G.rB("http://52.53.220.182//login/"+J.aa(s.d.a.a)+"/"+J.aa(s.e.a.a)).bx(0,new B.a9S(s,this.b),t.P).eA(new B.a9T())},
+G.rB("http://52.53.220.182:5000//login/"+J.aa(s.d.a.a)+"/"+J.aa(s.e.a.a)).bx(0,new B.a9S(s,this.b),t.P).eA(new B.a9T())},
 $S:2}
 B.a9S.prototype={
 $1:function(a){var s,r,q,p
@@ -36497,7 +36497,7 @@ X.AN.prototype={
 ar:function(){return new X.Oy([],C.l)}}
 X.Oy.prototype={
 b3:function(){this.by()
-G.rB(C.c.F("http://52.53.220.182//list_all_my_quotes/",$.Bo)).bx(0,new X.aa3(this),t.P).eA(new X.aa4())},
+G.rB(C.c.F("http://52.53.220.182:5000//list_all_my_quotes/",$.Bo)).bx(0,new X.aa3(this),t.P).eA(new X.aa4())},
 I:function(a,b){return B.asI(new X.aa0(this),this.d.length,C.cu,new X.aa1())}}
 X.aa3.prototype={
 $1:function(a){var s,r,q,p,o,n
@@ -36754,7 +36754,7 @@ P.b1(J.aa(p.a.a))
 s=r.d
 P.b1(J.aa(s.a.a))
 P.b1(J.aa(q.a.a))
-G.rB(C.c.F(C.c.F(C.c.F(C.c.F("http://52.53.220.182//submit_FTL_quote/"+J.aa(s.a.a)+"/"+J.aa(p.a.a)+"/",$.Bo)+"/"+J.aa(r.f.a.a)+"/",r.dx)+"/"+J.aa(r.r.a.a)+"/"+J.aa(r.y.a.a)+"/"+J.aa(r.x.a.a)+"/"+J.aa(r.Q.a.a)+"/"+J.aa(r.dy)+"/"+J.aa(r.fx)+"/"+J.aa(r.cx.a.a)+"/",r.go)+"/"+J.aa(r.ch.a.a)+"/",r.fy)+"/"+J.aa(q.a.a)).bx(0,new D.aaC(r),t.P).eA(new D.aam())},
+G.rB(C.c.F(C.c.F(C.c.F(C.c.F("http://52.53.220.182:5000//submit_FTL_quote/"+J.aa(s.a.a)+"/"+J.aa(p.a.a)+"/",$.Bo)+"/"+J.aa(r.f.a.a)+"/",r.dx)+"/"+J.aa(r.r.a.a)+"/"+J.aa(r.y.a.a)+"/"+J.aa(r.x.a.a)+"/"+J.aa(r.Q.a.a)+"/"+J.aa(r.dy)+"/"+J.aa(r.fx)+"/"+J.aa(r.cx.a.a)+"/",r.go)+"/"+J.aa(r.ch.a.a)+"/",r.fy)+"/"+J.aa(q.a.a)).bx(0,new D.aaC(r),t.P).eA(new D.aam())},
 $S:2}
 D.aaC.prototype={
 $1:function(a){P.b1("Request success!")
@@ -36830,7 +36830,7 @@ $0:function(){var s,r=this.a,q=r.e
 P.b1(J.aa(q.a.a))
 s=r.d
 P.b1(J.aa(s.a.a))
-G.rB(C.c.F(C.c.F(C.c.F(C.c.F("http://52.53.220.182//submit_LTL_quote/"+J.aa(s.a.a)+"/"+J.aa(q.a.a)+"/",$.Bo)+"/"+J.aa(r.f.a.a)+"/",r.dx)+"/"+J.aa(r.r.a.a)+"/"+J.aa(r.y.a.a)+"/"+J.aa(r.x.a.a)+"/"+J.aa(r.Q.a.a)+"/"+J.aa(r.dy)+"/"+J.aa(r.fx)+"/"+J.aa(r.cx.a.a)+"/",r.go)+"/"+J.aa(r.ch.a.a)+"/",r.fy)+"/"+J.aa(r.z.a.a)).bx(0,new D.aav(r),t.P).eA(new D.aaw())},
+G.rB(C.c.F(C.c.F(C.c.F(C.c.F("http://52.53.220.182:5000//submit_LTL_quote/"+J.aa(s.a.a)+"/"+J.aa(q.a.a)+"/",$.Bo)+"/"+J.aa(r.f.a.a)+"/",r.dx)+"/"+J.aa(r.r.a.a)+"/"+J.aa(r.y.a.a)+"/"+J.aa(r.x.a.a)+"/"+J.aa(r.Q.a.a)+"/"+J.aa(r.dy)+"/"+J.aa(r.fx)+"/"+J.aa(r.cx.a.a)+"/",r.go)+"/"+J.aa(r.ch.a.a)+"/",r.fy)+"/"+J.aa(r.z.a.a)).bx(0,new D.aav(r),t.P).eA(new D.aaw())},
 $S:2}
 D.aav.prototype={
 $1:function(a){P.b1("Request success!")
@@ -36860,7 +36860,7 @@ $0:function(){var s,r=this.a,q=r.e
 P.b1(J.aa(q.a.a))
 s=r.d
 P.b1(J.aa(s.a.a))
-G.rB(C.c.F(C.c.F("http://52.53.220.182//submit_FCL_quote/"+J.aa(s.a.a)+"/"+J.aa(q.a.a)+"/",$.Bo)+"/"+J.aa(r.f.a.a)+"/"+J.aa(r.cy.a.a)+"/",r.fr)+"/"+J.aa(r.z.a.a)).bx(0,new D.aaj(r),t.P).eA(new D.aak())},
+G.rB(C.c.F(C.c.F("http://52.53.220.182:5000//submit_FCL_quote/"+J.aa(s.a.a)+"/"+J.aa(q.a.a)+"/",$.Bo)+"/"+J.aa(r.f.a.a)+"/"+J.aa(r.cy.a.a)+"/",r.fr)+"/"+J.aa(r.z.a.a)).bx(0,new D.aaj(r),t.P).eA(new D.aak())},
 $S:2}
 D.aaj.prototype={
 $1:function(a){P.b1("Request success!")
@@ -36889,7 +36889,7 @@ $1:function(a){return new F.mh(null)},
 $S:203}
 M.abp.prototype={
 $0:function(){var s=this.a
-G.rB("http://52.53.220.182//signup/"+J.aa(s.d.a.a)+"/"+J.aa(s.e.a.a)+"/"+J.aa(s.r.a.a)+"/"+J.aa(s.x.a.a)+"/"+J.aa(s.y.a.a)+"/"+J.aa(s.f.a.a)).bx(0,new M.abl(s,this.b),t.P).eA(new M.abm())},
+G.rB("http://52.53.220.182:5000//signup/"+J.aa(s.d.a.a)+"/"+J.aa(s.e.a.a)+"/"+J.aa(s.r.a.a)+"/"+J.aa(s.x.a.a)+"/"+J.aa(s.y.a.a)+"/"+J.aa(s.f.a.a)).bx(0,new M.abl(s,this.b),t.P).eA(new M.abm())},
 $S:2}
 M.abl.prototype={
 $1:function(a){var s,r,q
